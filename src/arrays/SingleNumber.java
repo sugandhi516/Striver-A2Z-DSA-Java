@@ -145,6 +145,7 @@ Key Learning
 • Value = Frequency.
 • getOrDefault() safely handles missing keys.
 • Frequency problems are commonly solved using HashMap.
+ye  striver  n XOR method se bhi solve kia h vo seekh lena
 
 ------------------------------------------------------------
 */
