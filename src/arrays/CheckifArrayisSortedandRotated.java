@@ -43,3 +43,38 @@ public class CheckifArrayisSortedandRotated {
 
     }
 }
+/*
+Why does this work even for
+already sorted arrays?
+
+Ans
+
+Because only the comparison
+
+last element > first element
+
+becomes true/false appropriately.
+
+For
+
+[1,2,3,4,5]
+
+there is only one break point
+
+5 > 1
+
+Hence answer is true.
+
+Can we compare using '<' instead?
+
+Ans
+
+Yes,
+
+but the entire logic changes.
+
+Using '>'
+
+is simpler because we only
+count break points. plus there is an edge case[1,1,1]
+ */
