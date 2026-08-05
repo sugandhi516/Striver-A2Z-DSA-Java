@@ -1,5 +1,7 @@
+/*
+KADANE'S ALGORITHM
+ */
 package arrays;
-
 public class MaximumSubarray {
     public static int MaximumSubarray(int[] arr){
         int sum =0;
