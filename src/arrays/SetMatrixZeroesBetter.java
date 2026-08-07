@@ -1,6 +1,6 @@
 package arrays;
 
-public class SetMatrixZeroesBetter {
+public class git staSetMatrixZeroesBetter {
 
     public static void setZeroes(int[][] matrix) {
 
