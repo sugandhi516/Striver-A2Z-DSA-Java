@@ -1,4 +1,4 @@
-package arrays;
+package  arrays;
 import java.util.HashMap;
 public class MajorityElement {
     public int majorityElement(int[] arr){
@@ -50,3 +50,19 @@ O(2n)
 
 O(n)
  */
+
+
+
+/*
+------------------------------------------------------------
+"I maintain a candidate and its vote count. If the current element is the
+same as the candidate, I increment the count. Otherwise, I decrement it because the
+current element cancels one vote of the candidate. Whenever the count becomes zero,
+I choose the current element as the new candidate. Since the majority element appears
+ more than n/2 times,
+ it cannot be completely cancelled and will remain the final candidate."
+*/
+
+
+
+
