@@ -25,3 +25,13 @@ public class BubbleSort {
         System.out.println("Sorted array:   " + Arrays.toString(numbers));
     }
 }
+/*
+Adjacent Swaps Only: Unlike Selection Sort or Quick Sort, Bubble Sort only
+ever compares and exchanges
+neighboring items (arr[j] and arr[j+1]).
+
+stable
+Best Case: $O(n)$ with the swapped flag optimization (array is already sorted;
+ exits after $1$ pass of $n-1$ comparisons).
+Without the flag, it is $O(n^2)$.
+ */
