@@ -1,4 +1,4 @@
-
+//GCD → Euclidean Algorithm//
 package BasicMaths;
 import java.util.Scanner;
 public class GCDandLCM {
@@ -31,3 +31,4 @@ public class GCDandLCM {
         System.out.println("LCM = " + lcm);
     }
 }
+//GCD → Euclidean Algorithm//
