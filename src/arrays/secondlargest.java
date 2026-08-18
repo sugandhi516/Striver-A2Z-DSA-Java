@@ -38,3 +38,39 @@ public class secondlargest {
         return secondmax;
     }
 }
+/*
+Can you skip updating secondmax inside the first if?
+
+You shouldn't completely skip it.
+
+Consider:
+
+arr = [10, 20, 30]
+
+If you write:
+
+if (arr[i] > max) {
+    max = arr[i];
+}
+else if (arr[i] < max && arr[i] > secondmax) {
+    secondmax = arr[i];
+}
+
+When 20 comes:
+
+20 > 10 → true
+
+So max = 20.
+
+But secondmax remains Integer.MIN_VALUE.
+
+Then 30 comes:
+
+30 > 20 → true
+
+So max = 30.
+
+secondmax is still Integer.MIN_VALUE.
+
+You've lost 20, even though it should be the second largest.
+ */
