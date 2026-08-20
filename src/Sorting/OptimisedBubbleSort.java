@@ -39,3 +39,14 @@ public class OptimisedBubbleSort {
         System.out.println("Sorted array:   " + Arrays.toString(numbers));
     }
 }
+/*
+Pass 1: i = 4 (Inner loop runs for j = 0 to j = 3)
+Array at start: [64, 34, 25, 12, 22]swapped = false
+j = 0: Compare arr[0] (64) & arr[1] (34)64 > 34 $\rightarrow$ True $\rightarrow$ Swap
+$\rightarrow$ Array: [34, 64, 25, 12, 22], swapped = truej = 1:
+Compare arr[1] (64) & arr[2] (25)64 > 25 $\rightarrow$ True $\rightarrow$ Swap
+$\rightarrow$ Array: [34, 25, 64, 12, 22], swapped = truej = 2: Compare arr[2] (64) & arr[3] (12)64 > 12 $\rightarrow$ True $\rightarrow$ Swap
+ $\rightarrow$ Array: [34, 25, 12, 64, 22], swapped = truej = 3: Compare arr[3] (64) & arr[4] (22)64 > 22 $\rightarrow$ True $\rightarrow$ Swap
+  $\rightarrow$ Array: [34, 25, 12, 22, 64], swapped = trueEnd of Pass 1 Check: swapped is true $\rightarrow$ Continue.
+  Array after Pass 1: [34, 25, 12, 22, 64] (Largest element 64 last index par pahunch gaya)
+ */
